@@ -1,18 +1,18 @@
 // puxando elementos da qtde
-const btnAddFilme1 = document.querySelector()
-const btnAddFilme2 = document.querySelector()
-const btnAddFilme3 = document.querySelector()
-const btnAddFilme4 = document.querySelector()
+const btnAddFilme1 = document.querySelector('.mais1')
+const btnAddFilme2 = document.querySelector('.mais2')
+const btnAddFilme3 = document.querySelector('.mais3')
+const btnAddFilme4 = document.querySelector('.mais4')
 
-const btnRemoveFilme1 = document.querySelector()
-const btnRemoveFilme2 = document.querySelector()
-const btnRemoveFilme3 = document.querySelector()
-const btnRemoveFilme4 = document.querySelector()
+const btnRemoveFilme1 = document.querySelector('menos1')
+const btnRemoveFilme2 = document.querySelector('menos2')
+const btnRemoveFilme3 = document.querySelector('menos3')
+const btnRemoveFilme4 = document.querySelector('menos4')
 
-const divQtdefilme1 = document.querySelector()
-const divQtdefilme2 = document.querySelector()
-const divQtdefilme3 = document.querySelector()
-const divQtdefilme4 = document.querySelector()
+const divQtdefilme1 = document.querySelector('.qntd1')
+const divQtdefilme2 = document.querySelector('.qntd2')
+const divQtdefilme3 = document.querySelector('.qntd3')
+const divQtdefilme4 = document.querySelector('.qntd4')
 let qtdefilme1 = 0
 let qtdefilme2 = 0
 let qtdefilme3 = 0
