@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bia.css">
+    <title>Prova</title>
 </head>
-<body>
-    <!-- <div class="tudo"> -->
-    <div class="rosa">
-    <h1>🎬Cineminha</h1>
-    <p>Compre seus ingressos e garanta aqui</p>
-    </div>
-   <div class="cx">
-    <div class="all">
-        <div class="filme">
-            <img src="crepusculo.jpg" alt="">
-            <div class="text">
-                <h1>Crepúsculo</h1>
-                <p> Romance/Fantasia</p>
-                <h2>R$20,00</h2>
-            </div>
-                      <button onclick="gerar()">Finalizar Compra</button>
-        </div>
-    </div>
-   </div>
-   <!-- </div> -->
 
-    <script src="script.js"></script>
+<body>
+    <div class="divzona">
+        <div class="tickets">
+            <h1>CineTickets</h1>
+            <h3>Escolha seus ingressos e finalize a compra</h3>
+        </div>
+        <div class="fundo"></div>
+        <div class="filmes">
+            <div id="movie" class="filme1">
+                <img src="./img/wolverine.jpg" alt="Deadpool e Wolverine">
+                <h2>Deadpool e Wolverine</h2>
+                <p>Ação / Comédia</p>
+                <h3>R$20,00</h3>
+                <div id="botao" class="Botao1">
+                    <button class="menos1">-</button>
+                    <div class="qntd1">0</div>
+                    <button class="mais1">+</button>
+                </div>
+            </div>
+            <div id="movie" class="filme2">
+                <img src="./img/panico.webp" alt="panico">
+                <h2>Pânico 7</h2>
+                <p>Terror / Suspense</p>
+                <h3>R$18,00</h3>
+                <div id="botao" class="Botao2">
+                    <button class="menos2">-</button>
+                    <div class="qntd2">0</div>
+                    <button class="mais2">+</button>
+                </div>
+            </div>
+            <div id="movie" class="filme3">
+                <img src="./img/homi.jpg" alt="Spider-Man">
+                <h2>Spider-Man: Brand New Day</h2>
+                <p>Ação / Aventura</p>
+                <h3>R$22,00</h3>
+                <div id="botao" class="Botao3">
+                    <button class="menos3">-</button>
+                    <div class="qntd3">0</div>
+                    <button class="mais3">+</button>
+                </div>
+            </div>
+            <div id="movie" class="filme4">
+                <img src="./img/super.webp" alt="super">
+                <h2>Superman</h2>
+                <p>Ação / Ficção Cientifica</p>
+                <h3>R$16,00</h3>
+                <div id="botao" class="Botao4">
+                    <button class="menos4">-</button>
+                    <div class="qntd4">0</div>
+                    <button class="mais4">+</button>
+                </div>
+            </div>
+            <div class="valor">
+                <p>Valor Total</p>
+                <div class="valortotal"></div>
+            </div>
+        </div>
+        <button id="final">Finalizar Compra</button>
+    </div>
+    <script src="gab.js"></script>
+
 </body>
+
 </html>
