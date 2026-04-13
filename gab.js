@@ -21,15 +21,9 @@ let qtdefilme4 = 0
 // operação pra saber o total da venda
 let valor = document.querySelector('.valortotal')
 
-let valorTotalfilme1 = qtdefilme1 * 20
-let valorTotalfilme2 = qtdefilme2 * 18
-let valorTotalfilme3 = qtdefilme3 * 22
-let valorTotalfilme4 = qtdefilme4 * 16
 
-function totalcompra() {
-    let valortotal = valorTotalfilme1 + valorTotalfilme2 + valorTotalfilme3 + valorTotalfilme4
-    valor.innerText = (valortotal)
-}
+
+
 
 //adicionando a qtde aqui
 btnAddFilme1.addEventListener('click', () => {
@@ -74,3 +68,11 @@ btnRemoveFilme4.addEventListener('click', () => {
     divQtdefilme4.innerText = (qtdefilme4)
     totalcompra()
 })
+function totalcompra() {
+    let valorTotalfilme1 = qtdefilme1 * 20
+    let valorTotalfilme2 = qtdefilme2 * 18
+    let valorTotalfilme3 = qtdefilme3 * 22
+    let valorTotalfilme4 = qtdefilme4 * 16
+    let valortotal = valorTotalfilme1 + valorTotalfilme2 + valorTotalfilme3 + valorTotalfilme4
+    valor.innerText = (valortotal)
+}
