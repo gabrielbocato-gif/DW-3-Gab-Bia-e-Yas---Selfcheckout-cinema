@@ -4,10 +4,10 @@ const btnAddFilme2 = document.querySelector('.mais2')
 const btnAddFilme3 = document.querySelector('.mais3')
 const btnAddFilme4 = document.querySelector('.mais4')
 
-const btnRemoveFilme1 = document.querySelector('menos1')
-const btnRemoveFilme2 = document.querySelector('menos2')
-const btnRemoveFilme3 = document.querySelector('menos3')
-const btnRemoveFilme4 = document.querySelector('menos4')
+const btnRemoveFilme1 = document.querySelector('.menos1')
+const btnRemoveFilme2 = document.querySelector('.menos2')
+const btnRemoveFilme3 = document.querySelector('.menos3')
+const btnRemoveFilme4 = document.querySelector('.menos4')
 
 const divQtdefilme1 = document.querySelector('.qntd1')
 const divQtdefilme2 = document.querySelector('.qntd2')
@@ -21,10 +21,10 @@ let qtdefilme4 = 0
 // operação pra saber o total da venda
 let valor = document.querySelector('.valortotal')
 
-let valorTotalfilme1 = qtdefilme1 * valorfilme1
-let valorTotalfilme2 = qtdefilme2 * valorfilme2
-let valorTotalfilme3 = qtdefilme3 * valorfilme3
-let valorTotalfilme4 = qtdefilme4 * valorfilme4
+let valorTotalfilme1 = qtdefilme1 * 20
+let valorTotalfilme2 = qtdefilme2 * 18
+let valorTotalfilme3 = qtdefilme3 * 22
+let valorTotalfilme4 = qtdefilme4 * 16
 
 function totalcompra() {
     let valortotal = valorTotalfilme1 + valorTotalfilme2 + valorTotalfilme3 + valorTotalfilme4
