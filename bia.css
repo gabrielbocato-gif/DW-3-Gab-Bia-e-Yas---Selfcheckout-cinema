@@ -22,6 +22,7 @@ h1{
 .all{
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 5px;
 }
 
@@ -34,13 +35,13 @@ h1{
     height: 40px;
     margin: 10px;
     font-size: 1rem;
-    background-color: rgb(235, 33, 100);
+    background-color: rgb(240, 76, 130);
     border: none;
     border-radius: 5px;
     color: white;
 }
 
-.cx{
+.fundo{
     background-color: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 20px;
@@ -51,7 +52,7 @@ h1{
 }
 
 .tickets{
-    background-color: rgb(235, 33, 100); 
+    background-color: rgb(240, 76, 130); 
     width: 100vw;
     height: 90px;
     display: flex;
@@ -62,12 +63,12 @@ h1{
 }
 
 img{
-    width: 100px;
+    width: 90px;
     height: 120px;
     border-radius: 10px;
 }
 
-.filme{
+.filmes{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -81,12 +82,16 @@ p{
     color: aliceblue;
 }
 
-.movie{
+#movie{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 20px;
-    border: 1px solid rgb(235, 33, 100);
+    border: 1px solid rgb(240, 76, 130);
     border-radius: 12px;
     padding: 12px;
+    width: 700px;
+    height: 150px;
 }
 
 .text{
@@ -98,4 +103,47 @@ p{
 
 p#one{
     color: rgb(177, 177, 177);
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+}
+
+#botao button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qntd{
+    color: aliceblue;
+}
+
+.valor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(240, 76, 130);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.valortotal{
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+}
+
+.text p{
+    color: rgb(182, 178, 178);
+    font-size: small;
 }
